@@ -1,0 +1,134 @@
+
+.wrapper{
+	min-height: 120px;
+	margin: 50px 70px;
+}
+.underline{
+	width:100%; 
+	height:1px; 
+	background: #D3D3D3;
+	margin-bottom:15px;
+}
+.button{
+	align-items: flex-start;
+    text-align: center;
+    cursor: auto;
+    color: buttontext;
+    background-color: buttonface;
+    padding: 5px 10px;
+    border:none;
+    font: inherit;
+    margin: 5px 0 ;
+    text-decoration: none;
+    
+}
+
+.button.comment{
+	background-color: #008CBA;
+	color:#fff;
+}
+
+table {
+	margin-top:15px;
+	margin-bottom: 15px;
+	width: 100%;
+}
+th,td{
+	border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+    
+}
+table .book_name,table .comment{
+	max-width: 500px;
+}
+table .book_publisher{
+	max-width: 200px;
+}
+
+
+.dark{
+	background-color: #f8f8ff;
+}
+
+form .row{
+	width: 100%;
+	display: inline-block;
+	margin: 10px 0;
+}
+.row .label{
+	width: 20%;
+	margin: 0;
+	float: left;
+}
+.row .input{
+	width: 80%;
+	margin: 0;
+	float: right;
+
+}
+input{
+	width: 100%;
+}
+.button.submit{
+	left: 20%;
+	position: relative;
+	background-color: #008CBA;
+	color:#fff;
+
+}
+
+.header h1, .header .book_name{
+	display: inline-block;
+}
+.header .book_name{
+	margin-left: 10px;
+	color: #a9a9a9;
+}
+.content{
+	margin-bottom: 10px;
+}
+textarea{
+	width: 100%;
+	float: right;
+	padding: 0;
+	height: 120px;
+}
+
+.pagination {
+    display: block;
+    
+    
+        padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.pagination ul {
+    display: inline-block;
+    padding: 0;
+}
+.pagination ul li:first-child {
+    margin-left: 0;
+}
+
+.pagination ul li {
+    float: left;
+    margin: 0 0 0 3px;
+    list-style: none;
+    line-height: 1;
+    font-size: 14px;
+}
+.pagination ul li span {
+    line-height: 1;
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #d8d8d8;
+    cursor: pointer;
+}
+
+.pagination ul li .current {
+    color: white;
+    border-color: #008CBA;
+    background-color: #008CBA;
+}
